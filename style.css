@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-color: #111;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.game-container {
+    text-align: center;
+}
+
+h1 {
+    color: #ffff00;
+    margin-bottom: 20px;
+    font-size: 40px;
+    text-shadow: 4px 4px #d00;
+}
+
+.score-board {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+canvas {
+    background-color: black;
+    border: 4px solid #1919A6; /* Classic arcade blue */
+    box-shadow: 0 0 20px #1919A6;
+    display: block;
+    margin: 0 auto;
+}
+
+.controls {
+    margin-top: 20px;
+    color: #aaa;
+    font-size: 14px;
+}
